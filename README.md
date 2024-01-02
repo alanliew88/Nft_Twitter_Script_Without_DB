@@ -1,5 +1,6 @@
 # NFT Twitter Bot
 This Node.js application fetches data for the top NFTs from the Coingecko API and posts the information as a tweet using the Twitter API.
+![image](https://github.com/alanliew88/Nft_Twitter_Script_Without_DB/assets/79797236/3488cc36-7fbc-4fc3-aff8-246fb6af4977)
 
 
 ## Overview
