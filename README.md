@@ -1,10 +1,5 @@
 # NFT Twitter Bot
-
 This Node.js application fetches data for the top NFTs from the Coingecko API and posts the information as a tweet using the Twitter API.
-
-## Replace the ??? with your CG Pro API Key
-Line 19 : const url = 'https://pro-api.coingecko.com/api/v3/nfts/list?x_cg_pro_api_key=???order=h24_volume_usd_desc&per_page=5&page=1';
-Line 30 : const url2 = 'https://pro-api.coingecko.com/api/v3/nfts/' + topNFT[i] + '?x_cg_pro_api_key=???';
 
 
 ## Overview
@@ -26,6 +21,13 @@ The application is designed to perform the following tasks:
 2. Install the required dependencies by running `npm install`.
 3. Update the Twitter API and Coingecko API credentials in the script file (`new_nft.js`) with your own keys.
 4. Run the script using `node new_nft.js` to execute the process.
+
+## Replace the ??? with your CG Pro API Key
+
+Line 19 : const url = 'https://pro-api.coingecko.com/api/v3/nfts/list?x_cg_pro_api_key=???order=h24_volume_usd_desc&per_page=5&page=1';
+
+Line 30 : const url2 = 'https://pro-api.coingecko.com/api/v3/nfts/' + topNFT[i] + '?x_cg_pro_api_key=???';
+
 
 ## Dependencies
 
